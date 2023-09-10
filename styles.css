@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    background-color:#c5a57b   ;
+}
+
+.content-header {
+    margin: 0;
+    background-color: #bb7732;
+    padding:13px;
+   
+}
+
+.content-header ul {
+    list-style: none;
+    display: flex;
+    }
+
+.content-header li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button {
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: 0;
+    background-color: #d48e48;
+    margin-top: 5%;
+    font-size: x-large;
+    margin: 25px 25px;
+}
+
+.content-header nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#home {
+    max-width: 1370px;
+    height: 310px;
+    background: center/cover url('gato.mds2.jpg');
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+}
+
+.content-banner {
+    margin-top: -65px;
+}
+
+.content-banner h1 { margin-bottom: -49px; padding-left: 385px; letter-spacing: 6px; font-size: 92px; color: #312013; font-family: fantasy; }
+.content-banner h2 { margin-bottom: -93px; padding-left: 610px; letter-spacing: 2px; font-size: 47px; color: #312013; font-family: fantasy; }
+.content-banner h3 { margin-bottom: -45px; padding-left: 975px;   font-size: 57px;  letter-spacing: 2px;   color: #312013;     font-family: fantasy; }
+.content-banner h4 { font-size: 33px; padding-left: 981px; letter-spacing: 2px;   color: #291a0f;     font-family: fantasy; }
+
+.pacotes {
+    height: 500px;
+    text-align: center;
+    font-size: large;
+}
+
+.pacotes h1   {
+        background-color: #49270c;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.raças-cards {
+    background: url("patas2.jpg");     
+    background-repeat: no-repeat;     
+    background-size: 85.7%;     
+    background-position-x: center;      
+    display: grid;     
+    flex-wrap: wrap;     
+    grid-template-columns: repeat(3, 0.9fr);     
+    grid-gap: 30px 10px;
+    }
+
+.raças-cards h1 {
+        background-color: #49270c;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0px;
+        margin-top: -4.5px;
+    }
+
+.card{
+    width: 250px;
+    height: 440px;
+    background-color: #d48e48;
+    border-radius: 45px;
+    margin: auto;
+    color: white;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 220px; 
+    border-radius: 5px;
+}
+
+.pacotes .card-content {
+padding: 0;
+    }
+
+.card-content ul li  {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.video {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    background: url("fundo1.jpg");     
+    background-repeat: no-repeat;  
+    background-position: center;   
+    background-size: 95%;   
+}
+
+.content-footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #bb7732;
+    color: black;
+}
